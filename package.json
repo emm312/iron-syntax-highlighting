@@ -2,7 +2,7 @@
   "name": "iron-language-support",
   "displayName": "iron language support",
   "description": "Language support for the iron programming language",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "publisher": "emm312",
   "repository": "https://github.com/emm312/iron-syntax-highlighting/",
   "engines": {
