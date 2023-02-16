@@ -1,0 +1,25 @@
+{
+  "name": "iron",
+  "displayName": "iron",
+  "description": "Language support for the iron programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "iron",
+      "aliases": ["iron", "iron"],
+      "extensions": [".iron"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "iron",
+      "scopeName": "source.iron",
+      "path": "./syntaxes/iron.tmLanguage.json"
+    }]
+  }
+}
