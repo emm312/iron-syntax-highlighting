@@ -12,16 +12,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "iron",
-      "aliases": ["iron", "iron"],
-      "extensions": [".iron"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "iron",
-      "scopeName": "source.iron",
-      "path": "./syntaxes/iron.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "iron",
+        "aliases": [
+          "iron",
+          "iron"
+        ],
+        "extensions": [
+          ".iron"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "iron",
+        "scopeName": "source.iron",
+        "path": "./syntaxes/iron.tmLanguage.json"
+      }
+    ]
   }
 }
