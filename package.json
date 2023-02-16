@@ -4,7 +4,7 @@
   "description": "Language support for the iron programming language",
   "version": "0.0.1",
   "publisher": "emm312",
-  "repository": "https://github.com/emm312/iron-syntax-highlighting",
+  "repository": "https://github.com/emm312/iron-syntax-highlighting/",
   "engines": {
     "vscode": "^1.75.0"
   },
